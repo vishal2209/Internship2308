@@ -37,7 +37,7 @@ outcome.
 Answer-Nonlinear, binary
 # 57 You are given reviews of few netflix series marked as positive, negative and neutral. Classifying 
 reviews of a new netflix series is an example of
-Answer-
+Answer-supervised learning
 # 58 Following is powerful distance metrics used by Geometric model
 Answer-both a and b
 # 59 Which of the following techniques would perform better for reducing dimensions of a data set?
@@ -46,32 +46,32 @@ Answer-removing columns which have too many missing values
 statement.
 Answer-input attribute.
 # 61 What is the meaning of hard margin in SVM?
-Answer-
+Answer- SVM allows very low error in classification
 # 62 Increase in which of the following hyper parameter results into overfit in Random forest? (1). Number 
 of Trees. (2). Depth of Tree, (3). Learning Rate.
-Answer-
+Answer-Only 2
 # 63 Below are the 8 actual values of target variable in the train file: [0,0,0, 0, 1, 1,1,1,1,1], What is the 
 entropy of the target variable?
-Answer-
+Answer-(6/10 log(6/10) + 4/10 log(4/10))
 # 64  Lasso can be interpreted as least-squares linear regression where
-Answer-
+Answer- weights are regularized with the l1 norm
 # 65 Consider the problem of binary classification. Assume I trained a model on a linearly separable 
 training set, and now I have a new labeled data point that the model properly categorized and is far 
 away from the decision border. In which instances is the learnt decision boundary likely to change if I 
 now add this additional point to my previous training set and re-train? When the training model is,
-Answer-
+Answer-  Perceptron and logistic regression and Support vector machine
 # 66 Assume you’ve discovered multi-collinear features. Which of the following actions do you 
 intend to take next? (1). Both collinear variables should be removed. (2). Instead of deleting both 
 variables, we can simply delete one. (3). Removing correlated variables may result in information 
 loss. We may utilize penalized regression models such as ridge or lasso regression to keep such 
 variables.
-Answer-
+Answer- Either 2 or 3
 # 67 A least squares regression study of weight (y) and height (x) yielded the following least squares line: 
 y = 120 + 5x. This means that if the height is increased by one inch, the weight should increase by 
 what amount?
-Answer-
+Answer- increase by 5 pound
 # 68 The line described by the linear regression equation (OLS) attempts to ____?
-Answer-
+Answer-Minimize the squared distance from the points
 # 69 For two real-valued attributes, the correlation coefficient is 0.85. What does this value indicate?
 Answer-As the value of one attribute increases the value of the second attribute also increases
 # 70 Which neural network architecture would be most suited to handle an image identification problem 
